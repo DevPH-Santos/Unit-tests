@@ -1,85 +1,223 @@
-🧪 Estudos de Testes Unitários
+# 🧪 Unit Tests Lab
 
-Repositório dedicado ao estudo e à prática de testes unitários utilizando diferentes linguagens e tecnologias.
+<p align="center">
+  Repositório dedicado ao estudo, prática e experimentação de <strong>testes unitários</strong> utilizando diferentes linguagens e tecnologias.
+</p>
 
-A ideia é reunir exercícios, exemplos e experimentos para entender, na prática, como escrever testes automatizados, melhorar a qualidade do código e aplicar boas práticas de desenvolvimento.
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+</p>
 
-🚀 Tecnologias
-🐘 PHP — Laravel
-🟨 JavaScript
-🐍 Python
-📚 Conteúdos estudados
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/Objetivo-Estudos-blue?style=flat-square" alt="Objetivo">
+  <img src="https://img.shields.io/badge/Testes-Unitários-green?style=flat-square" alt="Testes Unitários">
+</p>
 
-Ao longo do repositório, serão abordados conceitos como:
+---
 
-Testes unitários
-Assertions
-Organização e estrutura de testes
-Testes de funções e métodos
-Testes de classes
-Mocks e Stubs
-Isolamento de dependências
-Testes de casos de sucesso e falha
-Validação de regras de negócio
-Boas práticas para escrita de testes
-Cobertura de testes
-Testes automatizados
-📁 Estrutura
+## 📖 Sobre o projeto
 
-A estrutura do projeto é organizada de acordo com cada tecnologia:
+Este repositório foi criado com o objetivo de **estudar e praticar testes unitários**, explorando diferentes linguagens, frameworks e ferramentas.
 
-.
-├── php-laravel/
-│   └── tests/
+Aqui serão armazenados exercícios, exemplos, desafios e experimentos relacionados à criação e manutenção de testes automatizados.
+
+> 💡 **A ideia é aprender na prática**, começando com testes simples e aumentando gradualmente a complexidade.
+
+---
+
+## 🚀 Tecnologias
+
+| Tecnologia | Utilização |
+|:---:|:---|
+| 🐘 **PHP** | Desenvolvimento e testes |
+| 🔥 **Laravel** | Testes em aplicações PHP |
+| 🟨 **JavaScript** | Testes de funções e aplicações JS |
+| 🐍 **Python** | Testes e experimentos com Python |
+
+---
+
+## 🧠 Conteúdos estudados
+
+O repositório aborda conceitos como:
+
+- ✅ Testes unitários
+- ✅ Assertions
+- ✅ Testes de funções
+- ✅ Testes de métodos
+- ✅ Testes de classes
+- ✅ Casos de sucesso
+- ❌ Casos de erro e exceções
+- 🎭 Mocks
+- 🧩 Stubs
+- 🔗 Isolamento de dependências
+- 📋 Validação de regras de negócio
+- 📊 Cobertura de testes
+- ♻️ Refatoração com segurança
+- 🏗️ Código orientado a testes
+- ⚙️ Automação de testes
+
+---
+
+## 📂 Estrutura do projeto
+
+```text
+unit-tests-lab/
 │
-├── javascript/
-│   └── tests/
+├── 🐘 php-laravel/
+│   ├── tests/
+│   └── README.md
 │
-├── python/
-│   └── tests/
+├── 🟨 javascript/
+│   ├── tests/
+│   └── README.md
 │
-└── README.md
+├── 🐍 python/
+│   ├── tests/
+│   └── README.md
+│
+└── 📄 README.md
+````
 
+ A estrutura poderá evoluir conforme novos conceitos e ferramentas forem adicionados ao projeto.
 
-A estrutura poderá ser modificada conforme novos conteúdos e experimentos forem adicionados ao repositório.
+---
 
-🎯 Objetivo
+ ## 🐘 PHP / Laravel
 
-O principal objetivo deste projeto é aprender e praticar testes automatizados, criando uma base de conhecimento que possa ser utilizada em projetos futuros.
+ Os testes relacionados ao PHP e Laravel ficarão dentro da pasta:
 
-Este não é um projeto de produção. Os códigos aqui presentes são experimentos e exercícios desenvolvidos com finalidade educacional.
+```
+php-laravel/
+```
 
-🧠 Por que estudar testes unitários?
+ Para executar os testes de um projeto Laravel:
 
-Testes unitários ajudam a:
-
-Encontrar problemas no código mais rapidamente;
-Garantir que regras de negócio continuem funcionando;
-Facilitar refatorações;
-Reduzir regressões;
-Melhorar a confiabilidade da aplicação;
-Documentar o comportamento esperado do código;
-Desenvolver código mais organizado e testável.
-🔧 Executando os testes
-
-Os comandos podem variar de acordo com a tecnologia utilizada.
-
-PHP / Laravel
+```
 php artisan test
+```
 
-JavaScript
+ Ou:
 
-Dependendo do framework utilizado, por exemplo:
+```
+./vendor/bin/phpunit
+```
 
+---
+
+ ## 🟨 JavaScript
+
+ Os experimentos e testes utilizando JavaScript ficarão dentro de:
+
+```
+javascript/
+```
+
+ Para executar os testes:
+
+```
 npm test
+```
 
-Python
+ > As ferramentas utilizadas podem variar conforme o projeto.
+
+---
+
+ ## 🐍 Python
+
+ Os testes utilizando Python ficarão dentro de:
+
+```
+python/
+```
+
+ Com `pytest`, por exemplo:
+
+```
 pytest
+```
 
-📌 Observação
+ Ou:
 
-Este repositório está em constante evolução conforme novos conceitos, linguagens e ferramentas de testes forem estudados.
+```
+python -m pytest
+```
 
-A proposta é aprender fazendo, mantendo exemplos simples e aumentando gradualmente a complexidade dos testes.
+---
 
-⭐ Repositório criado para fins de estudo e prática de testes unitários e desenvolvimento de software.
+ ## 🎯 Objetivos
+
+ ### 📚 Aprendizado
+
+ Construir uma base sólida sobre testes unitários e testes automatizados.
+
+ ### 🧪 Prática
+
+ Aplicar os conceitos estudados através de exercícios e pequenos projetos.
+
+ ### 🔍 Experimentação
+
+ Testar diferentes abordagens, ferramentas e estratégias de testes.
+
+ ### 💻 Evolução
+
+ Utilizar os conhecimentos adquiridos em projetos maiores e aplicações reais.
+
+---
+
+ ## 📈 Evolução dos estudos
+
+```
+Fundamentos
+    │
+    ├── Assertions
+    │
+    ├── Testes simples
+    │
+    ├── Casos de erro
+    │
+    ├── Mocks & Stubs
+    │
+    ├── Dependências
+    │
+    ├── Regras de negócio
+    │
+    └── Testes mais complexos
+             │
+             ▼
+      🚀 Projetos reais
+```
+
+---
+
+ ## 💭 Por que testes unitários?
+
+ Testes unitários são importantes para garantir que pequenas partes do código funcionem conforme o esperado.
+
+ Eles ajudam a:
+
+ - 🐛 Encontrar bugs mais rapidamente
+- 🛡️ Evitar regressões
+- ♻️ Refatorar código com mais segurança
+- 📖 Documentar comportamentos esperados
+- 🧹 Melhorar a qualidade do código
+- 🚀 Aumentar a confiança durante o desenvolvimento
+
+---
+
+ ## ⚠️ Sobre este repositório
+
+ Este projeto possui **finalidade exclusivamente educacional**.
+
+ Os códigos presentes aqui representam estudos, experimentos e exercícios realizados durante o aprendizado de testes unitários.
+
+ A estrutura e os exemplos poderão ser modificados conforme novos conhecimentos forem adquiridos.
+
+---
+
+ ## ⭐ Objetivo final
+
+ > **Transformar teoria em prática e aprender a escrever código mais confiável através de testes automatizados.**
